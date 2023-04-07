@@ -1,6 +1,6 @@
-# CISC 332 Final Project Implementation
+# CISC/CMPE 332 Final Project Implementation
 ###### Created by Ahoura Radpey
-This is the implementation/demo part of the final  project for CMPE 332 - Database Management Systems W23.
+This is the implementation/demo part of the final  project for CISC/CMPE 332 - Database Management Systems W23.
 
 The web page, built using HTML, CSS, JS, and PHP, accesses a MySQL database containing information about a branch of restaurants, and implements four functional requirements (as per the outline):
 
@@ -12,7 +12,7 @@ The web page, built using HTML, CSS, JS, and PHP, accesses a MySQL database cont
 ## Instructions:
 
 1. Download and install XAMPP
-2. Navigate to /XAMPP/htdocs folder, and clone "cisc332-project" repository into it
+2. Navigate to /XAMPP/htdocs folder, and clone "332-web-app" repository into it
 3. Start XAMPP MySQL Database and Apache Web Server
 4. Create a new database called restaurantDB
 5. Copy text contained in restaurantDB.txt into the SQL query box
