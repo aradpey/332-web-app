@@ -1,25 +1,20 @@
-CISC 332 Final Project Implementation
-Created by Ahoura Radpey
+#CISC 332 Final Project Implementation
+######Created by Ahoura Radpey
 This is the implementation/demo part of the final  project for CMPE 332 - Database Management Systems W23.
 
 The web page, built using HTML, CSS, JS, and PHP, accesses a MySQL database containing information about a branch of restaurants, and implements four functional requirements (as per the outline):
 
-Show all the information for all drivers associated with a particular rescue organization
-For a particular donor, show which organizations they donated to and the total amount donated (over their lifetime)
-Show the total amount donated for 2018 to a selected organization
-Show the animals that went from the SPCA directly to a shelter (ie. they did not go through the rescue organization)
-The demo will take user inputs through a CSS form for the queries that require user input (1, 2, and 3), and will display either a table containing the requested information, or one line including the requested information. It will display
+1. List all the orders made on a particular date.  The user should be asked for a  date and you will list the first and last name of the customer, the items ordered, the total amount of the order, the tip, and the name of the delivery person who delivered the order.
+2. Provide a way to add a new customer to the database.  You will need to ask for all the customer information.  You should check to ensure that the customer doesn't already exist in the database.  An account should be created for them with $5.00 credit.
+3. Create a table that shows dates on which orders were placed along with the number of orders on that date.
+4. Allow the user to choose an employee and show their schedule for Monday to Friday.  Do not show the schedule for Saturday or Sunday, even if the employee works on those days.  For this functionality, you must retrieve all the employees and display them somehow on your web page so that the user can choose from those listed.
 
-No results found.
+##Instructions:
 
-if the result of any query is empty.
-
-Instructions:
-
-Download and install XAMPP
-Navigate to /XAMPP/htdocs folder, and clone "cisc332-project" repository into it
-Start XAMPP MySQL Database and Apache Web Server
-Create a new database called MAHAnimalServices
-Copy text contained in MAHAnimalServices_DDL.txt into the SQL query box
-Navigate to the MAH Animal Services Website
-Profit.
+1. Download and install XAMPP
+2. Navigate to /XAMPP/htdocs folder, and clone "cisc332-project" repository into it
+3. Start XAMPP MySQL Database and Apache Web Server
+4. Create a new database called restaurantDB
+5. Copy text contained in restaurantDB.txt into the SQL query box
+6. Navigate to the RestaurantDB website, the homepage is restaurant.html
+7. Navigate through with links
