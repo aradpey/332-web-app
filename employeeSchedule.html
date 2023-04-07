@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <title>Restaurant</title>
+  </head>
+  <body>
+    <h1>Employee Schedules</h1>
+
+    <div class="nav-container">
+      <a href="restaurant.html" class="text-link">Home</a>
+      <a href="listOrders.html" class="text-link">List Orders Per Date</a>
+      <a href="createCustomer.html" class="text-link">Create Customer</a>
+      <a href="employeeSchedule.html" class="text-link current-page"
+        >Check Employee Schedule</a
+      >
+      <a href="ordersPerDate.html" class="text-link">Orders List</a>
+    </div>
+
+    <p class="page-desc">
+      From the drop down menu, select an employee and their schedule will be
+      shown<br />Employee shifts on the weekends are not shown
+    </p>
+
+    <form class="emp-form">
+      <label for="employeeSelect" class="emp-label">Select an employee:</label>
+      <select
+        id="employeeSelect"
+        name="employeeSelect"
+        class="emp-select"
+      ></select>
+      <button type="button" id="viewScheduleButton" class="emp-button">
+        View Schedule
+      </button>
+    </form>
+
+    <div id="scheduleContainer" class="schedule-container"></div>
+
+    <script src="employeeSchedule.js"></script>
+  </body>
+</html>

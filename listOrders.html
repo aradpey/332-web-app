@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Restaurant</title>
+  </head>
+  <body>
+    <h1>List Orders</h1>
+
+    <div class="nav-container">
+      <a href="restaurant.html" class="text-link">Home</a>
+      <a href="listOrders.html" class="text-link current-page"
+        >List Orders Per Date</a
+      >
+      <a href="createCustomer.html" class="text-link">Create Customer</a>
+      <a href="employeeSchedule.html" class="text-link"
+        >Check Employee Schedule</a
+      >
+      <a href="ordersPerDate.html" class="text-link">Orders List</a>
+    </div>
+
+    <p class="page-desc">
+      On this page, enter a date, and it will return all the orders placed on
+      that specific day, with each customers name, the food they ordered the
+      price of the food, and the delivery persons name
+    </p>
+
+    <form id="list-order-form" class="list-order-form">
+      <label for="date" class="list-order-label">Enter Date:</label>
+      <input type="date" id="date" name="date" required />
+      <input type="submit" value="List Orders" />
+    </form>
+
+    <p class="list-order-text"></p>
+
+    <div id="orders-container"></div>
+
+    <script src="listOrders.js"></script>
+  </body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Restaurant</title>
+  </head>
+  <body>
+    <h1>Orders Per Date</h1>
+
+    <div class="nav-container">
+      <a href="restaurant.html" class="text-link">Home</a>
+      <a href="listOrders.html" class="text-link">List Orders Per Date</a>
+      <a href="createCustomer.html" class="text-link">Create Customer</a>
+      <a href="employeeSchedule.html" class="text-link"
+        >Check Employee Schedule</a
+      >
+      <a href="ordersPerDate.html" class="text-link current-page"
+        >Orders List</a
+      >
+    </div>
+    <p class="page-desc">
+      This page shows a table of each date that contains orders and the total
+      number of orders per date
+    </p>
+    <table id="ordersTable" class="orders-table"></table>
+
+    <script src="ordersPerDate.js"></script>
+  </body>
+</html>
